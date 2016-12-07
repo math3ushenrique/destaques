@@ -1,0 +1,317 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: 'opensans-bold';
+    src: url("../fontes/opensans-bold.ttf") format("truetype");
+}
+@font-face{
+    font-family: 'opensans-light';
+    src: url("../fontes/opensans-light.ttf") format("truetype");
+}
+@font-face{
+    font-family: 'opensans-regular';
+    src: url("../fontes/opensans-regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: 'opensans-semibold-webfont';
+    src: url("../fontes/opensans-semibold-webfont.ttf") format("truetype");
+}
+
+*{
+	padding:0;
+	margin:0;	
+}
+
+.titulo-vendas{
+	color:#961F1B;
+	font-size:30px;
+	font-family:'opensans-regular';
+	float:right;
+	margin:20px;
+}
+
+.titulo-aluguel{
+	opacity: 0.5;
+	float:left;		 
+	color:#961F1B;
+	font-size:30px;
+	font-family:'opensans-regular';	
+	margin:20px;
+}
+
+hr{
+	margin-top:50px;	
+	border-top: 1px solid #F0F0F0;
+}
+
+#destaques{
+	margin:5% auto;
+	width:1176px;
+}
+
+#destaques-topo{
+	width:1176px;
+	height:100px;
+	background-color:#fff;
+	float:left;
+}
+
+#destaques-vendas{
+	width:588px;
+	float:left;
+    height:140px;
+}
+
+#titulo-destaques-vendas{
+	width:588px;
+	float:right;
+    height:70px;
+}
+
+#imagem-exibir{	
+	height:70px;
+	float:right;
+	margin-right:110px;
+}
+
+#titulo-destaques-aluguel{
+	width:588px;
+	float:left;
+}
+
+#exibir{
+	float:right;
+}
+
+/*Início Conteúdo dos destaques*/
+#conteudo-destaques{
+	width:1176px;
+	height:auto;
+	margin-top:50px;
+	float:left;
+}
+
+#imagem1{
+	width:279px;
+	height:186px;
+	margin-right:20px;
+	float:left;
+}
+
+#conteudo1{
+	width:279px;
+	height:186px;
+	margin-right:20px;
+	float:left;
+}
+
+#imagem2{
+	width:279px;
+	height:186px;
+	margin-right:20px;
+	float:left;
+}
+
+#conteudo2{
+	width:279px;
+	height:186px;
+	float:left;
+}
+
+#imagem3{
+	width:279px;
+	height:186px;
+	margin-right:20px;
+	margin-top:37px;
+	float:left;
+}
+
+#conteudo3{
+	width:279px;
+	height:186px;
+	margin-right:20px;
+	margin-top:37px;
+	float:left;
+}
+
+#imagem4{
+	width:279px;
+	height:186px;
+	margin-right:20px;
+	margin-top:37px;
+	float:left;
+}
+
+#conteudo4{
+	width:279px;
+	height:186px;
+	margin-top:37px;
+	float:left;
+}
+
+#titulo-conteudo{
+	margin-bottom:25px;
+}
+
+#detalhes-conteudo{
+	margin-bottom:25px;
+}
+
+.bairro{
+	color:#323232;
+	font-family:'opensans-regular';
+	font-size:20px;
+}
+
+.imovel{
+	color:#323232;
+	font-family:'opensans-regular';
+	font-size:20px;
+}
+
+.detalhes{
+	font-family:'opensans-light';
+	color:#373737;
+	font-size:12px;
+	margin:0 55px 0 10px;
+}
+.b{
+	margin-left:20px;
+}
+
+.b2{
+	font-family:'opensans-light';
+	color:#373737;
+	font-size:12px;
+	margin:0 35px 0 10px;
+}
+
+#valor-conteudo{
+	border-top:1px solid #DBDBDB;
+	width:279px;	
+}
+
+.valor{
+	font-family:'opensans-regular';
+	font-size:25px;
+	color:#961F1B;
+}
+
+#imagem-mais{
+	float:right;
+	margin-top:2px;
+	cursor:pointer;
+}
+
+/* Fundo Janela */
+#fundo{
+	width:100%;
+	height:100%;
+	background:url(../imagens/bg.png);
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+}
+
+.janela{
+	margin:5% auto;
+	background-color:#fff;
+	width:780px;
+	height:515px;
+}
+
+#titulo-fale-conosco{
+	background-color:#9A3135;
+	width:770px;
+	padding:5px;
+}
+
+.fale-conosco{
+	color:#fff;
+	padding-bottom:30px;
+	margin-bottom:25px;
+	display:inline;
+	float:left;
+	font-family:'opensans-regular';	
+	font-size:14px;
+	
+}
+
+.fechar-x{
+	display:inline;	
+	margin-left:656px;
+	width:30px;
+	height:33px;	
+}
+
+/* Formulario*/
+#Formulario-fale-conosco{
+width:500px;
+height:auto;
+margin:20px auto;
+}
+
+
+#descricao-fale-conosco, #formulario-nome, #formulario-email, #formulario-telefone, #formulario-mensagem{
+	font-family:'opensans-regular';	
+	color:#515151;	
+	font-size:12px;
+	margin-bottom:3px;
+}
+
+.input-mensagem{
+	resize:none;
+	margin-bottom:50px;
+}
+
+.input-nome, .input-email{
+	width:500px;
+	border:none;
+	border: solid 1px #D6D6D6;
+	border-radius: 3px;
+	height:22px;
+}
+
+.input-mensagem{
+	width:500px;
+	border:none;
+	border: solid 1px #D6D6D6;
+	border-radius: 3px;
+}
+
+.input-telefone{
+	width:465px;
+	border:none;
+	border: solid 1px #D6D6D6;
+	border-radius: 3px;
+	height:22px;
+}
+
+#mais-form{
+	display:inline;
+	float:right;
+}
+
+#descricao-fale-conosco{
+	margin-top:20px;
+	text-align: center;
+}
+
+#enviar{
+	text-align: center;	
+}
+
+.bt-enviar{
+	text-align: center;
+	padding:15px 35px;
+	background-color:#9A3135;
+	color:#fff;
+	font-family:'opensans-regular';
+	border-radius: 25px;
+}
+
+#fechar{
+	float:right;
+	margin-top:5px;
+}
